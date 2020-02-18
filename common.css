@@ -1,0 +1,115 @@
+@charset "UTF-8";
+body {
+	background-color: #FFFFC9;
+	margin: 20px;	/* bodyの外側の余白を指定する */
+	padding: 50px 10px 50px 10px;	/* bodyの内側余白を指定する(上:右:下:左) */
+}
+.sakanahen {
+	font-size: 80pt;
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+.submit {
+	font-size: 100pt,
+	height: 200px;
+	width: 300px;
+}
+.button {
+	  display       : inline-block;
+	  font-size     : 40pt;        /* 文字サイズ */
+	  text-align    : center;      /* 文字位置   */
+	  cursor        : pointer;     /* カーソル   */
+	  padding       : 12px 12px;   /* 余白       */
+	  background    : #000066;     /* 背景色     */
+	  color         : #ffffff;     /* 文字色     */
+	  line-height   : 1em;         /* 1行の高さ  */
+	  transition    : .3s;         /* なめらか変化 */
+	  box-shadow    : 6px 6px 3px #666666;  /* 影の設定 */
+	  border        : 2px solid #000066;    /* 枠の指定 */
+	}
+.button:hover {
+	  box-shadow    : none;        /* カーソル時の影消去 */
+	  color         : #000066;     /* 背景色     */
+	  background    : #ffffff;     /* 文字色     */
+	}
+.sbutton {
+	  display       : inline-block;
+	  font-size     : 10pt;        /* 文字サイズ */
+	  text-align    : center;      /* 文字位置   */
+	  cursor        : pointer;     /* カーソル   */
+	  padding       : 6px 6px;   /* 余白       */
+	  background    : #000066;     /* 背景色     */
+	  color         : #ffffff;     /* 文字色     */
+	  line-height   : 1em;         /* 1行の高さ  */
+	  transition    : .3s;         /* なめらか変化 */
+	  box-shadow    : 2px 2px 1px #666666;  /* 影の設定 */
+	  border        : 2px solid #000066;    /* 枠の指定 */
+	}
+.sbutton:hover {
+	  box-shadow    : none;        /* カーソル時の影消去 */
+	  color         : #000066;     /* 背景色     */
+	  background    : #ffffff;     /* 文字色     */
+	}
+input.tsukuri {
+	font-size: 80pt;
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+.header {
+	height: 47px;
+	width: 100%;
+	box-shadow: 0 0 10px #dddddd;
+	background-color: #000066;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+.header-left a {
+	float: left;
+	color: #ffffff;
+	background-color: #000066;
+	padding-left: 10px;
+	margin-top: 10px;
+	margin-left: 10px;
+	font-size: 20px;
+}
+.header-right a {
+	float: right;
+	color: #ffffff;
+	background-color: #000066;
+	padding-right: 10px;
+	margin-top: 7px;
+	margin-left: 10px;
+	font-size: 20px;
+}
+.login {
+	text-align:right;
+	color: #ffffff;
+}
+.right {
+    float: right;
+    color: #ffffff;
+}
+.kanji {
+	height: 117px;
+}
+.information {
+	height: 100px;
+	width: 30%;
+	padding-top: 10px;
+	float: left;
+}
+.fish_image {
+	float: left;
+	height: 100%;
+	margin-left: 380px;
+    padding-top: 10px;
+}
+.favorite {
+	background-color: #EFFAC3;
+	margin: 10px;
+	border-radius: 10px;
+	height: 100px;
+}
+.delete_button {
+	float: left;
+	padding-top: 30px;
+}
